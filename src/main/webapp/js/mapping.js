@@ -726,6 +726,7 @@ function Clear(){
 		laneMarkers.destroyFeatures();
 		vectors.destroyFeatures();
 		box.destroyFeatures();
+		errors.destroyFeatures();
 	}
 
     $('#open').show();
